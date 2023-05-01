@@ -1,0 +1,432 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden !important;
+}
+
+.contentContainer{
+    height: 60vh;
+    background-image: url("../assets/images/containerBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+
+
+.containerImage{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -4%;
+}
+.containerHeader{
+    margin-left: 5%;
+    margin-top: 11%;
+    position: absolute;
+    
+}
+.containerHeader h1{
+    font-family: 'Yeseva One', cursive;
+    text-shadow: 1px 1px 2px orange;
+}
+
+#offWeb{
+    box-shadow: 4px 5px 6px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(253, 196, 26);
+}
+
+.osecondContainer{
+    width: 100vw;
+    background-color: rgb(253, 196, 26);
+    margin-top: 50px;
+}
+.sgraphContainer{
+    padding: 5%;
+}
+#offWeb:hover{
+    background-color: orange;
+    transition: 0.3s;
+}
+.btn {
+    border-radius: 4px;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-size: 300%;
+    transition: all 0.6s;
+  }
+.navbar-brand{
+    color: rgb(253, 196, 26);
+    font-size: 3em;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px black;
+}
+
+.navbar-brand:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.navLink{
+    font-weight:bold;
+    margin: 10px;
+}
+.orange {
+    color: orange;
+    background-image: linear-gradient(120deg, white 50%, orange 50%);
+}
+.navLink:hover{
+    color: #fff;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+    background-color: rgb(207, 158, 12);
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.secondContainer{
+    margin-top: 149px;
+}
+
+#example-graph{
+    background-color: orange;
+}
+
+.winnersBar{
+    height: auto;
+    background-color: orange;
+    margin-top: 149px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.sidebar{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.graphHeader{
+    font-family: 'Oswald', sans-serif;
+}
+.smallgraphCols{
+    background: rgb(215, 213, 210);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.matchCounter{
+    padding: 25px;
+    background: orange;
+    border-radius: 30px;
+}
+#count{
+    font-family: 'Oswald', sans-serif;
+}
+
+.matchesTotals{
+    padding: 10%;
+}
+
+#season-dropdown{
+    margin-bottom: 10px;
+}
+.Select-control{
+    width: 200px;
+}
+.venueHeader, .team-wins{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+#season-venues-plot{
+    margin-top: 45px;
+}
+
+.scontainerHeader{
+    text-shadow: 0.5px 0.5px 2px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;    
+    padding: 2%;
+
+}
+
+.tossHeader{
+    text-shadow: 0.5px 0.5px 2px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#number_up,
+#number_down{
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-align: right;
+  color: #6200ea;
+}
+.sidebar-years{
+    font-weight: bold;
+}
+.teams-header{
+    font-family: 'Bruno Ace SC', cursive;
+    padding-top: 50px;
+}
+.card{
+    padding: 5px;
+    margin: 50px;
+    box-shadow: 2px 3px 6px;
+}
+
+.card-title{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px;
+}
+.card-body a{
+    text-decoration: none;
+    color: orange;
+}
+
+.card-body{
+    height: 100px;
+}
+
+.card-body a:hover{
+    color: rgb(222, 148, 11);
+}
+.col-4{
+    padding: 10px; 
+}
+
+.card img{
+    height: 220px;
+}
+.row2{
+    margin-top: -85px;
+}
+.row3{
+    margin-top: -85px;
+}
+
+.thirdContent{
+    margin-top: 50px !important;
+    border-radius: 20px;
+    background-color: rgb(247, 242, 242);
+    padding: 4%;
+}
+
+.thirdContent h5{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.thirdContent a{
+    text-decoration: none;
+    color: black;
+}
+.thirdContent a:hover{
+    text-decoration: underline;
+    transition: 0.6s;
+    background-color: orange;
+    color: black;
+}
+
+
+
+/*Batting Page CSS start*/
+
+.firstContainer{
+    margin-top: 20px;
+}
+
+.firstContainerContent{
+    width: 100vw;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 30px;
+}
+
+.batHeader{
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+#runCount{
+    margin-top: -10px;
+}
+.batSidebar{
+    padding: 15px;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.batSidebar h3{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.secondContainerB{
+    margin-top: 20px;
+}
+
+#bar-chart{
+    margin-top: 44px;
+}
+
+.heatMapContainer{
+    background: orange;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.heatMapContainer h1{
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+/*Batting Page CSS end*/
+
+
+/*Bowling Page css*/
+
+.BthirdContainer{
+    margin-top: 20px;
+}
+
+.bowlsidebar h2{
+    margin-bottom: 20px;
+} 
+
+.bowlsidebar{
+    padding: 20px;
+    background-color: orange;
+    border-radius: 20px;
+}
+.bowlerFirstContainer{
+    margin-top: 50px;
+}
+
+.secondContainer{
+    padding: 30px;
+    background-color: orange;
+    border-radius: 20px;
+}
+/*Bowling page css ends here*/
+
+/* Scroll down */
+.scrollIcon{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+#mouse-scroll {
+    style: block;
+  }
+  #mouse-scroll {
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    top: 80px;
+    -webkit-transform: translateX(-50%);
+    z-index: 9999;
+  }
+  #mouse-scroll span{
+    display: block;
+    width: 5px; 
+    height: 5px;
+    -ms-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+         transform: rotate(45deg);
+         transform: rotate(45deg);
+    border-right: 2px solid black; 
+    border-bottom: 2px solid black;
+    margin: 0 0 3px 5px;
+  }
+  #mouse-scroll .mouse {
+    height: 21px;
+    width: 14px;
+    border-radius: 10px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    border: 2px solid black;
+    top: 170px;
+  }
+  #mouse-scroll .down-arrow-1 {
+    margin-top: 6px;
+  }
+  #mouse-scroll .down-arrow-1, #mouse-scroll .down-arrow-2, #mouse-scroll .down-arrow-3 {
+    -webkit-animation: mouse-scroll 1s infinite; 
+      -moz-animation: mouse-scroll 1s infinite;
+  }
+  #mouse-croll .down-arrow-1 {
+     -webkit-animation-delay: .1s; 
+     -moz-animation-delay: .1s;
+     -webkit-animation-direction: alternate;
+  }
+  #mouse-scroll .down-arrow-2 {
+    -webkit-animation-delay: .2s; 
+    -moz-animation-delay: .2s;
+    -webkit-animation-direction: alternate;
+  }
+  #mouse-scroll .down-arrow-3 {
+     -webkit-animation-delay: .3s;
+     -moz-animation-dekay: .3s;
+     -webkit-animation-direction: alternate;
+  }
+  #mouse-scroll .mouse-in {
+    height: 5px;
+    width: 2px;
+    display: block; 
+    margin: 5px auto;
+    background: black;
+    position: relative;
+  }
+  #mouse-scroll .mouse-in {
+   -webkit-animation: animated-mouse 1.2s ease infinite;
+    moz-animation: mouse-animated 1.2s ease infinite;
+  }
+  
+  @-webkit-keyframes animated-mouse {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+       opacity: 0;
+      -webkit-transform: translateY(6px);
+      -ms-transform: translateY(6px);
+      transform: translateY(6px);
+    }
+  }
+  @-webkit-keyframes mouse-scroll {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    } 
+  }
+  @keyframes mouse-scroll {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
