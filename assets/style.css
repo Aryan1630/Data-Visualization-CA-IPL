@@ -30,7 +30,7 @@ body{
     text-shadow: 1px 1px 2px orange;
 }
 
-#offWeb{
+.offWeb{
     box-shadow: 4px 5px 6px;
     padding: 10px;
     border-radius: 10px;
@@ -45,7 +45,7 @@ body{
 .sgraphContainer{
     padding: 5%;
 }
-#offWeb:hover{
+.offWeb:hover{
     background-color: orange;
     transition: 0.3s;
 }
