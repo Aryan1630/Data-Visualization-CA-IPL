@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import plotly.express as px
 import plotly.graph_objs as go
 from dash import dash_table
