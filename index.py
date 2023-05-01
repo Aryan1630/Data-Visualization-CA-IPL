@@ -19,8 +19,8 @@ navbar = html.Div([
         dbc.NavItem(dbc.NavLink("OVERALL", href="/overall", className=" btn navLink orange")),
         dbc.NavItem(dbc.NavLink("BATTING", href="/batting", className="btn navLink orange")),
         dbc.NavItem(dbc.NavLink("BOWLING", href="/bowling", className="btn navLink orange")),
-        dbc.NavItem(dbc.NavLink("ABOUT US", href="https://www.iplt20.com/about/about-us", className="btn navLink orange", id="offWEb")),
-        dbc.NavItem(dbc.NavLink("FAN CONTEST", href="https://www.iplt20.com/fan-contests", className="btn navLink  orange", id="offWEb"))
+        dbc.NavItem(dbc.NavLink("ABOUT US", href="https://www.iplt20.com/about/about-us", className="btn navLink orange offWEb")),
+        dbc.NavItem(dbc.NavLink("FAN CONTEST", href="https://www.iplt20.com/fan-contests", className="btn navLink  orange offWEb"))
     ],
     brand="IPL",
     brand_href="/home",
