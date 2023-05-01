@@ -10,7 +10,7 @@ from dash.dependencies import Input, Output
 from dash import html
 
 #python codes
-battingDataset  =  pd.read_csv(r"D:\DV\IPL 2008-2022\all_season_batting_card.csv")
+battingDataset  =  pd.read_csv(r"all_season_batting_card.csv")
 batting_columns_to_drop = ['commentary','link','runningOver','runningScore','minutes','name']
 battingDataset1 = battingDataset.drop(batting_columns_to_drop, axis=1)
 
