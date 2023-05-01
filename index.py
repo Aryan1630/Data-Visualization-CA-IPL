@@ -9,7 +9,7 @@ from pages import home, batting, bowling, overall
 
 #app = dash.Dash(__name__, use_pages=True)
 
-
+server = app.server
 
 # Navbar Start
 navbar = html.Div([
