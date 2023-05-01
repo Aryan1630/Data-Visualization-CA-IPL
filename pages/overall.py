@@ -12,7 +12,7 @@ from dash import html
 
 
 
-winnerList = pd.read_csv(r"D:\DV\IPL 2008-2022\all_season_summary.csv")
+winnerList = pd.read_csv(r"all_season_summary.csv")
 winnerList.head()
 
 winnersFilter = winnerList[winnerList['description'].str.startswith('Final')]
