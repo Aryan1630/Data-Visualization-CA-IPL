@@ -14,7 +14,7 @@ from dash.exceptions import PreventUpdate
 
 
 #python codes
-bowlingDataset  =  pd.read_csv(r"D:\DV\IPL 2008-2022\all_season_bowling_card.csv")
+bowlingDataset  =  pd.read_csv(r"all_season_bowling_card.csv")
 
 
 
