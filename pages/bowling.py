@@ -68,7 +68,7 @@ firstCOntainer = html.Div([
             dbc.Col([
 
 
-                html.H1("Top 10 Batsmen in IPL Every Season", style={'font-size':'2em', 'margin-top':'20px','margin-bottom':'20px'}, className='text-center'),
+                html.H1("Top 10 Bowlers in IPL Every Season", style={'font-size':'2em', 'margin-top':'20px','margin-bottom':'20px'}, className='text-center'),
     dcc.Dropdown(
         id='season-dropdown',
         options=[{'label': season, 'value': season} for season in player_stats['season'].unique()],
