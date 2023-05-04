@@ -318,7 +318,7 @@ def update_season_venues_plot(selected_season):
     season_data = groupedBySeason_Venues[groupedBySeason_Venues['season'] == selected_season]
 
     # Create the plot using Plotly
-    fig = px.bar(season_data, x='venue_name', y='counts', title=f'Counts of Venues in {selected_season}')
+    fig = px.bar(season_data, x='venue_name', y='counts', title=f'Total Number of venues {selected_season} and number of Matches Played at the same')
     fig.update_xaxes(title='Venue Name')
     fig.update_yaxes(title='Counts')
     fig.update_layout(barmode='group')
